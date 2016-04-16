@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="example">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="MainController">
+		{{time | date: 'yyyy - mm - dd HH:mm:ss'}}
+	</div>
+	<script src="../../node_modules/angular/angular.js"></script>
+	<script src="../../node_modules/rx/dist/rx.all.js"></script>
+	<script src="../../node_modules/rx-angular/dist/rx.angular.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

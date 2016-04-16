@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="example">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="MainController">
+		<div conami-code='result()'>
+			<h3>Enter the Konami Code</h3>
+            <p>Up Up Down Down Left Right Left Right B A</p>
+		</div>
+		<div ng-if="conami">
+			Yes You got it
+		</div>
+	</div>
+	<script src="../../node_modules/angular/angular.js"></script>
+	<script src="../../node_modules/rx/dist/rx.all.js"></script>
+	<script src="../../node_modules/rx-angular/dist/rx.angular.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

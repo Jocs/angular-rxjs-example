@@ -1,0 +1,18 @@
+{
+  "name": "angular-rxjs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "罗冉 <luoran1988@126.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
